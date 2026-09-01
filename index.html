@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Akshitha Veluri — AI/ML Engineer &amp; Software Developer</title>
-<meta name="description" content="Akshitha Veluri — AI/ML Engineer and Software Developer specializing in LLM applications, RAG pipelines, and multi-agent AI systems. Explore projects, skills, and experience.">
-<meta property="og:title" content="Akshitha Veluri — AI/ML Engineer">
-<meta property="og:description" content="Building LLM applications, RAG pipelines, and multi-agent AI systems. AI/ML Engineer & Software Developer.">
+<title>Akshitha Veluri — Computer Science Undergraduate | AI/ML</title>
+<meta name="description" content="Akshitha Veluri — Computer Science undergraduate specializing in AI/ML, Generative AI, RAG pipelines, and multi-agent systems. Explore projects, skills, and experience.">
+<meta property="og:title" content="Akshitha Veluri — Computer Science Undergraduate | AI/ML">
+<meta property="og:description" content="Computer Science undergraduate specializing in AI/ML, Generative AI, RAG pipelines, and software development.">
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -48,8 +48,8 @@ body{
 a{color:inherit;text-decoration:none;}
 img{max-width:100%;display:block;}
 .container{max-width:1180px;margin:0 auto;padding:0 32px;}
-section{position:relative;padding:140px 0;}
-@media(max-width:768px){section{padding:90px 0;}.container{padding:0 20px;}}
+section{position:relative;padding:60px 0;}
+@media(max-width:768px){section{padding:44px 0;}.container{padding:0 20px;}}
 
 /* Scrollbar */
 ::-webkit-scrollbar{width:8px;}
@@ -161,121 +161,1413 @@ section{position:relative;padding:140px 0;}
 @keyframes fadeIn{to{opacity:1;}}
 
 /* ===== Section heads ===== */
-.sec-head{max-width:640px;margin-bottom:64px;}
-.sec-eyebrow{font-family:var(--font-mono);font-size:.76rem;color:var(--violet);text-transform:uppercase;letter-spacing:.1em;margin-bottom:14px;display:flex;align-items:center;gap:10px;}
+.sec-head{max-width:640px;margin-bottom:28px;}
+.sec-eyebrow{font-family:var(--font-mono);font-size:.75rem;color:var(--violet);text-transform:uppercase;letter-spacing:.1em;margin-bottom:8px;display:flex;align-items:center;gap:10px;}
 .sec-eyebrow::before{content:'';width:20px;height:1px;background:var(--violet);}
-.sec-head h2{font-family:var(--font-display);font-size:clamp(1.9rem,3.4vw,2.7rem);color:var(--ink-0);font-weight:700;letter-spacing:-.01em;margin-bottom:14px;}
-.sec-head p{color:var(--ink-2);font-size:1rem;max-width:540px;}
+.sec-head h2{font-family:var(--font-display);font-size:clamp(1.7rem,3vw,2.4rem);color:var(--ink-0);font-weight:700;letter-spacing:-.01em;margin-bottom:8px;}
+.sec-head p{color:var(--ink-2);font-size:.95rem;max-width:540px;}
 
 .reveal-el{opacity:0;transform:translateY(28px);transition:opacity .8s var(--ease),transform .8s var(--ease);}
 .reveal-el.in{opacity:1;transform:translateY(0);}
 
 /* ===== About ===== */
-.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start;}
-@media(max-width:860px){.about-grid{grid-template-columns:1fr;gap:40px;}}
-.about-text p{color:var(--ink-2);font-size:1.02rem;margin-bottom:18px;}
+.about-grid{display:grid;grid-template-columns:1.1fr 0.9fr;gap:36px;align-items:start;}
+@media(max-width:860px){.about-grid{grid-template-columns:1fr;gap:28px;}}
+.about-text p{color:var(--ink-2);font-size:.96rem;margin-bottom:14px;}
 .about-text strong{color:var(--ink-0);font-weight:600;}
-.stat-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
-.stat-card{background:var(--glass);border:1px solid var(--line);border-radius:16px;padding:26px 22px;transition:all .35s var(--ease);}
+.stat-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+.stat-card{background:var(--glass);border:1px solid var(--line);border-radius:16px;padding:20px 18px;transition:all .35s var(--ease);}
 .stat-card:hover{border-color:#ffffff2a;transform:translateY(-4px);background:var(--glass-strong);}
-.stat-num{font-family:var(--font-display);font-size:2.1rem;font-weight:700;color:var(--ink-0);background:linear-gradient(120deg,var(--ink-0),var(--ink-2));-webkit-background-clip:text;background-clip:text;}
-.stat-label{font-size:.8rem;color:var(--ink-2);margin-top:6px;}
+.stat-num{font-family:var(--font-display);font-size:1.8rem;font-weight:700;color:var(--ink-0);background:linear-gradient(120deg,var(--ink-0),var(--ink-2));-webkit-background-clip:text;background-clip:text;}
+.stat-label{font-size:.78rem;color:var(--ink-2);margin-top:4px;}
 
 /* ===== Skills ===== */
-.skill-filters{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:40px;}
-.skill-filter{font-family:var(--font-mono);font-size:.76rem;padding:9px 18px;border-radius:100px;border:1px solid var(--line);background:var(--glass);color:var(--ink-2);cursor:pointer;transition:all .3s var(--ease);}
+.skill-filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:24px;}
+.skill-filter{font-family:var(--font-mono);font-size:.74rem;padding:7px 16px;border-radius:100px;border:1px solid var(--line);background:var(--glass);color:var(--ink-2);cursor:pointer;transition:all .3s var(--ease);}
 .skill-filter:hover{color:var(--ink-0);border-color:#ffffff30;}
 .skill-filter.active{background:var(--ink-0);color:var(--bg-0);border-color:var(--ink-0);}
-.skill-cats{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;}
-.skill-cat{background:var(--glass);border:1px solid var(--line);border-radius:18px;padding:26px;transition:all .35s var(--ease);}
+.skill-cats{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:start;}
+.skill-cats.filtered{grid-template-columns:1fr;}
+.skill-cats-stack{display:flex;flex-direction:column;gap:16px;}
+.skill-cats-stack[hidden]{display:none;}
+@media(max-width:860px){.skill-cats,.skill-cats.filtered{grid-template-columns:1fr;}.skill-cats-stack{display:contents;}}
+.skill-cat{background:var(--glass);border:1px solid var(--line);border-radius:16px;padding:20px;transition:all .35s var(--ease);}
 .skill-cat[hidden]{display:none;}
 .skill-cat:hover{border-color:#ffffff28;transform:translateY(-5px);box-shadow:0 20px 40px -20px #000a;}
-.skill-cat-head{display:flex;align-items:center;gap:10px;margin-bottom:18px;}
-.skill-cat-icon{width:34px;height:34px;border-radius:10px;background:linear-gradient(135deg,var(--violet),var(--blue));display:flex;align-items:center;justify-content:center;font-size:.9rem;}
-.skill-cat-title{font-family:var(--font-display);font-weight:600;color:var(--ink-0);font-size:.98rem;}
-.skill-tags{display:flex;flex-wrap:wrap;gap:8px;}
-.skill-tag{font-family:var(--font-mono);font-size:.75rem;padding:7px 13px;border-radius:8px;background:var(--bg-1);border:1px solid var(--line-soft);color:var(--ink-1);transition:all .25s var(--ease);}
+.skill-cat-head{display:flex;align-items:center;gap:10px;margin-bottom:12px;}
+.skill-cat-icon{width:32px;height:32px;border-radius:8px;background:linear-gradient(135deg,var(--violet),var(--blue));display:flex;align-items:center;justify-content:center;font-size:.85rem;}
+.skill-cat-title{font-family:var(--font-display);font-weight:600;color:var(--ink-0);font-size:.92rem;}
+.skill-tags{display:flex;flex-wrap:wrap;gap:6px;}
+.skill-tag{font-family:var(--font-mono);font-size:.72rem;padding:5px 11px;border-radius:6px;background:var(--bg-1);border:1px solid var(--line-soft);color:var(--ink-1);transition:all .25s var(--ease);}
 .skill-tag:hover{border-color:var(--violet);color:var(--ink-0);background:#7c6cf01a;transform:translateY(-2px);}
+/* =========================================================
+   SKILLS SECTION
+   ========================================================= */
 
+#skills {
+  position: relative;
+}
+
+
+/* =========================================================
+   SECTION INTRO
+   ========================================================= */
+
+#skills .sec-head {
+  max-width: 760px;
+}
+
+
+/* =========================================================
+   FILTERS
+   ========================================================= */
+
+.skill-filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  gap: 10px;
+
+  margin-top: 34px;
+  margin-bottom: 28px;
+}
+
+
+/* =========================================================
+   MAIN 2 : 3 LAYOUT
+   ========================================================= */
+
+.skills-layout {
+
+  display: grid;
+
+  /*
+   * 2 : 3 ratio
+   *
+   * LEFT  = 2fr
+   * RIGHT = 3fr
+   */
+  grid-template-columns: 2fr 3fr;
+
+  gap: 18px;
+
+  align-items: start;
+
+}
+
+
+/* =========================================================
+   TWO MAIN FRAMES
+   ========================================================= */
+
+.skills-frame {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 18px;
+
+  min-width: 0;
+
+}
+
+
+/* =========================================================
+   INDIVIDUAL SKILL CARDS
+   ========================================================= */
+
+.skill-cat {
+
+  position: relative;
+
+  min-width: 0;
+
+  height: auto;
+
+  padding: 26px;
+
+  /*
+   * Let content determine height.
+   * Do NOT force equal heights.
+   */
+  align-self: stretch;
+
+}
+
+
+/* =========================================================
+   AI / ML PRIMARY CARD
+   ========================================================= */
+
+.skill-cat-ai {
+
+  padding: 30px;
+
+}
+
+
+/* =========================================================
+   AI TOOLS CARD
+   ========================================================= */
+
+.skill-cat-infra {
+
+  padding: 12px;
+
+}
+
+
+/* =========================================================
+   SUPPORTING CARDS
+   ========================================================= */
+
+.skill-cat-lang,
+.skill-cat-web,
+.skill-cat-cs {
+
+  padding: 24px 26px;
+
+}
+
+
+/* =========================================================
+   CARD HEAD
+   ========================================================= */
+
+.skill-cat-head {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 14px;
+
+  margin-bottom: 20px;
+
+}
+
+
+.skill-cat-heading {
+
+  min-width: 0;
+
+}
+
+
+.skill-cat-title {
+
+  font-size: 1rem;
+
+  line-height: 1.3;
+
+}
+
+
+.skill-cat-subtitle {
+
+  margin-top: 5px;
+
+  font-family: var(--font-mono);
+
+  font-size: 0.62rem;
+
+  line-height: 1.4;
+
+  color: var(--ink-3);
+
+}
+
+
+/* =========================================================
+   SKILL TAGS
+   ========================================================= */
+
+.skill-tags {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  align-items: flex-start;
+
+  align-content: flex-start;
+
+  gap: 8px;
+
+  min-width: 0;
+
+}
+
+
+.skill-tag {
+
+  white-space: normal;
+
+  max-width: 100%;
+
+  line-height: 1.35;
+
+}
+
+
+/* =========================================================
+   AI / ML TAG SPACING
+   ========================================================= */
+
+.skill-cat-ai .skill-tags {
+
+  gap: 9px;
+
+}
+
+
+/* =========================================================
+   VISUAL EMPHASIS FOR PRIMARY AI AREA
+   ========================================================= */
+
+.skill-cat-ai {
+
+  /*
+   * Slightly stronger visual presence
+   * without changing the existing design language.
+   */
+  min-height: 280px;
+
+}
+
+
+/* =========================================================
+   DESKTOP — LARGE SCREENS
+   ========================================================= */
+
+@media (min-width: 1200px) {
+
+  .skills-layout {
+
+    grid-template-columns: 2fr 3fr;
+
+    gap: 20px;
+
+  }
+
+  .skills-frame {
+
+    gap: 20px;
+
+  }
+
+  .skill-cat-ai {
+
+    padding: 32px;
+
+  }
+
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 1000px) {
+
+  .skills-layout {
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 16px;
+
+  }
+
+  .skill-cat {
+
+    padding: 22px;
+
+  }
+
+  .skill-cat-ai {
+
+    padding: 24px;
+
+    min-height: 0;
+
+  }
+
+}
+
+
+/* =========================================================
+   SMALL TABLET
+   ========================================================= */
+
+@media (max-width: 760px) {
+
+  .skills-layout {
+
+    grid-template-columns: 1fr;
+
+    gap: 16px;
+
+  }
+
+  .skills-frame {
+
+    gap: 16px;
+
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 560px) {
+
+  .skill-filters {
+
+    gap: 8px;
+
+    margin-top: 26px;
+
+    margin-bottom: 20px;
+
+  }
+
+  .skills-layout {
+
+    grid-template-columns: 1fr;
+
+    gap: 14px;
+
+  }
+
+  .skills-frame {
+
+    gap: 14px;
+
+  }
+
+  .skill-cat,
+  .skill-cat-ai,
+  .skill-cat-infra,
+  .skill-cat-lang,
+  .skill-cat-web,
+  .skill-cat-cs {
+
+    padding: 20px;
+
+    min-height: 0;
+
+  }
+
+  .skill-cat-head {
+
+    gap: 12px;
+
+    margin-bottom: 17px;
+
+  }
+
+  .skill-cat-subtitle {
+
+    font-size: 0.58rem;
+
+  }
+
+  .skill-tags {
+
+    gap: 7px;
+
+  }
+
+}
 /* ===== Projects ===== */
-.project-list{display:flex;flex-direction:column;gap:22px;}
-.project-card{position:relative;background:var(--glass);border:1px solid var(--line);border-radius:22px;padding:38px;display:grid;grid-template-columns:auto 1fr auto;gap:28px;align-items:center;cursor:pointer;transition:all .4s var(--ease);overflow:hidden;}
+.project-list{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;}
+@media(max-width:860px){.project-list{grid-template-columns:1fr;}}
+.project-card,.project-card.featured{position:relative;background:var(--glass);border:1px solid var(--line);border-radius:20px;padding:24px;display:flex;flex-direction:column;justify-content:space-between;gap:14px;cursor:pointer;transition:all .4s var(--ease);overflow:hidden;}
 .project-card::before{content:'';position:absolute;inset:0;background:radial-gradient(500px circle at var(--mx,50%) var(--my,50%),#7c6cf01f,transparent 60%);opacity:0;transition:opacity .4s;}
 .project-card:hover::before{opacity:1;}
 .project-card:hover{border-color:#ffffff2a;transform:translateY(-4px);box-shadow:0 30px 60px -30px #000c;}
-.project-card.featured{padding:44px;grid-template-columns:auto 1fr auto;}
-.project-index{font-family:var(--font-mono);font-size:.75rem;color:var(--ink-3);}
-.project-body h3{font-family:var(--font-display);font-size:1.4rem;color:var(--ink-0);font-weight:600;margin-bottom:10px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
-.badge{font-family:var(--font-mono);font-size:.65rem;padding:4px 10px;border-radius:100px;background:linear-gradient(135deg,#7c6cf033,#4f8ef733);border:1px solid #7c6cf055;color:#c9c3ff;text-transform:uppercase;letter-spacing:.06em;}
-.project-body p{color:var(--ink-2);font-size:.95rem;margin-bottom:16px;max-width:620px;}
-.project-tags{display:flex;flex-wrap:wrap;gap:8px;}
-.project-tags span{font-family:var(--font-mono);font-size:.7rem;padding:5px 11px;border-radius:6px;background:var(--bg-1);border:1px solid var(--line-soft);color:var(--ink-2);}
-.project-links{display:flex;flex-direction:column;gap:10px;}
-.plink{font-size:.8rem;font-weight:600;padding:10px 18px;border-radius:100px;border:1px solid var(--line);color:var(--ink-0);white-space:nowrap;transition:all .3s var(--ease);text-align:center;}
+.project-index{font-family:var(--font-mono);font-size:.72rem;color:var(--ink-3);margin-bottom:4px;}
+.project-body h3{font-family:var(--font-display);font-size:1.2rem;color:var(--ink-0);font-weight:600;margin-bottom:6px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;}
+.badge{font-family:var(--font-mono);font-size:.62rem;padding:3px 8px;border-radius:100px;background:linear-gradient(135deg,#7c6cf033,#4f8ef733);border:1px solid #7c6cf055;color:#c9c3ff;text-transform:uppercase;letter-spacing:.06em;}
+.project-body p{color:var(--ink-2);font-size:.88rem;margin-bottom:12px;line-height:1.48;}
+.project-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:4px;}
+.project-tags span{font-family:var(--font-mono);font-size:.68rem;padding:4px 9px;border-radius:6px;background:var(--bg-1);border:1px solid var(--line-soft);color:var(--ink-2);}
+.project-links{display:flex;flex-direction:row;gap:10px;margin-top:auto;}
+.plink{font-size:.78rem;font-weight:600;padding:8px 16px;border-radius:100px;border:1px solid var(--line);color:var(--ink-0);white-space:nowrap;transition:all .3s var(--ease);text-align:center;}
 .plink:hover{border-color:var(--violet);background:#7c6cf01a;transform:translateX(3px);}
-@media(max-width:760px){.project-card,.project-card.featured{grid-template-columns:1fr;padding:28px;}.project-links{flex-direction:row;}}
+@media(max-width:760px){.project-card,.project-card.featured{padding:20px;}.project-links{flex-direction:row;}}
 
 /* ===== Experience timeline ===== */
-.timeline{position:relative;padding-left:36px;}
+.timeline{position:relative;padding-left:32px;}
 .timeline::before{content:'';position:absolute;left:6px;top:6px;bottom:6px;width:1px;background:linear-gradient(180deg,var(--violet),var(--blue),transparent);}
-.tl-item{position:relative;padding-bottom:48px;}
+.tl-item{position:relative;padding-bottom:24px;}
 .tl-item:last-child{padding-bottom:0;}
-.tl-dot{position:absolute;left:-36px;top:4px;width:13px;height:13px;border-radius:50%;background:var(--bg-0);border:2px solid var(--violet);box-shadow:0 0 0 4px #08090d, 0 0 16px #7c6cf088;}
-.tl-card{background:var(--glass);border:1px solid var(--line);border-radius:16px;padding:26px 28px;transition:all .35s var(--ease);}
+.tl-dot{position:absolute;left:-32px;top:4px;width:13px;height:13px;border-radius:50%;background:var(--bg-0);border:2px solid var(--violet);box-shadow:0 0 0 4px #08090d, 0 0 16px #7c6cf088;}
+.tl-card{background:var(--glass);border:1px solid var(--line);border-radius:16px;padding:20px 24px;transition:all .35s var(--ease);}
 .tl-card:hover{border-color:#ffffff28;transform:translateX(4px);}
-.tl-top{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:10px;}
-.tl-role{font-family:var(--font-display);font-weight:600;color:var(--ink-0);font-size:1.08rem;}
-.tl-org{color:var(--violet);font-size:.9rem;font-weight:500;}
-.tl-date{font-family:var(--font-mono);font-size:.75rem;color:var(--ink-3);}
-.tl-card ul{padding-left:18px;color:var(--ink-2);font-size:.92rem;}
-.tl-card li{margin-bottom:6px;}
+.tl-top{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:8px;}
+.tl-role{font-family:var(--font-display);font-weight:600;color:var(--ink-0);font-size:1.02rem;}
+.tl-org{color:var(--violet);font-size:.88rem;font-weight:500;}
+.tl-date{font-family:var(--font-mono);font-size:.72rem;color:var(--ink-3);}
+.tl-card ul{padding-left:16px;color:var(--ink-2);font-size:.88rem;}
+.tl-card li{margin-bottom:4px;}
 
-/* ===== Education / Certs / Achievements ===== */
-.edu-card{background:var(--glass);border:1px solid var(--line);border-radius:18px;padding:32px;margin-bottom:16px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;transition:all .35s var(--ease);}
-.edu-card:hover{border-color:#ffffff28;transform:translateY(-3px);}
-.edu-card h3{font-family:var(--font-display);color:var(--ink-0);font-size:1.15rem;margin-bottom:6px;}
-.edu-card .edu-org{color:var(--ink-2);font-size:.9rem;}
-.edu-meta{text-align:right;}
-.edu-meta .cgpa{font-family:var(--font-display);font-size:1.6rem;color:var(--violet);font-weight:700;}
-.edu-meta .yr{font-family:var(--font-mono);font-size:.72rem;color:var(--ink-3);margin-top:4px;}
+/* =========================================================
+   EDUCATION + CERTIFICATIONS
+   ========================================================= */
 
-.grid-3{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;}
-.cert-card{background:var(--glass);border:1px solid var(--line);border-radius:16px;padding:24px;transition:all .35s var(--ease);}
-.cert-card:hover{border-color:var(--violet);transform:translateY(-4px);}
-.cert-card .cicon{width:38px;height:38px;border-radius:10px;background:#7c6cf022;border:1px solid #7c6cf044;display:flex;align-items:center;justify-content:center;margin-bottom:14px;color:var(--violet);font-size:1rem;}
-.cert-card h4{font-family:var(--font-display);color:var(--ink-0);font-size:1rem;margin-bottom:4px;}
-.cert-card p{font-size:.82rem;color:var(--ink-3);}
+.edu-certs-grid {
 
-.ach-card{background:var(--glass);border:1px solid var(--line);border-radius:18px;padding:28px;display:flex;gap:18px;align-items:flex-start;transition:all .35s var(--ease);}
-.ach-card:hover{border-color:#ffffff28;transform:translateY(-4px);}
-.ach-card .anum{font-family:var(--font-display);font-size:1.6rem;font-weight:700;color:var(--blue);flex-shrink:0;}
-.ach-card h4{font-family:var(--font-display);color:var(--ink-0);font-size:1.02rem;margin-bottom:6px;}
-.ach-card p{font-size:.87rem;color:var(--ink-2);}
+  display: grid;
 
-/* ===== Profiles ===== */
-.profile-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;}
-.profile-card{background:var(--glass);border:1px solid var(--line);border-radius:18px;padding:30px;text-align:center;transition:all .35s var(--ease);}
-.profile-card:hover{border-color:var(--violet);transform:translateY(-6px);}
-.profile-card .picon{width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,var(--violet),var(--blue));display:flex;align-items:center;justify-content:center;margin:0 auto 16px;font-size:1.2rem;}
-.profile-card h4{font-family:var(--font-display);color:var(--ink-0);margin-bottom:6px;}
-.profile-card p{font-size:.82rem;color:var(--ink-2);}
+  /*
+   * Education gets enough room for long institution names.
+   * Certifications get the larger visual area.
+   */
+  grid-template-columns: 1fr 1.45fr;
 
+  gap: 42px;
+
+  align-items: start;
+
+}
+
+
+/* =========================================================
+   SECTION HEADINGS
+   ========================================================= */
+
+.education-heading,
+.certifications-heading {
+
+  margin-bottom: 24px;
+
+}
+
+
+/* =========================================================
+   EDUCATION CARDS
+   ========================================================= */
+
+.edu-card {
+
+  position: relative;
+
+  background: var(--glass);
+
+  border: 1px solid var(--line);
+
+  border-radius: 16px;
+
+  padding: 24px 26px;
+
+  margin-bottom: 14px;
+
+  /*
+   * IMPORTANT:
+   * Two strict columns.
+   *
+   * LEFT  = degree/institution
+   * RIGHT = score/year
+   */
+  display: grid;
+
+  grid-template-columns: minmax(0, 1fr) auto;
+
+  align-items: center;
+
+  column-gap: 28px;
+
+  min-height: 128px;
+
+  transition:
+    transform .35s var(--ease),
+    border-color .35s var(--ease),
+    background .35s var(--ease);
+
+}
+
+
+/* Hover */
+
+.edu-card:hover {
+
+  border-color: #ffffff28;
+
+  transform: translateY(-3px);
+
+}
+
+
+/* =========================================================
+   EDUCATION CONTENT
+   ========================================================= */
+
+.edu-content {
+
+  min-width: 0;
+
+}
+
+
+.edu-card h3 {
+
+  font-family: var(--font-display);
+
+  color: var(--ink-0);
+
+  font-size: 1.08rem;
+
+  line-height: 1.35;
+
+  margin-bottom: 7px;
+
+}
+
+
+.edu-card .edu-org {
+
+  color: var(--ink-2);
+
+  font-size: .88rem;
+
+  line-height: 1.5;
+
+}
+
+
+/* =========================================================
+   EDUCATION RESULT / META
+   ========================================================= */
+
+.edu-meta {
+
+  /*
+   * This guarantees the CGPA stays on the
+   * RIGHT side of the education card.
+   */
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-end;
+
+  justify-content: center;
+
+  text-align: right;
+
+  min-width: 92px;
+
+}
+
+
+.edu-meta .cgpa {
+
+  font-family: var(--font-display);
+
+  font-size: 1.65rem;
+
+  line-height: 1;
+
+  color: var(--violet);
+
+  font-weight: 700;
+
+  letter-spacing: -0.02em;
+
+}
+
+
+.edu-meta .score-label {
+
+  font-family: var(--font-mono);
+
+  font-size: .58rem;
+
+  color: var(--ink-3);
+
+  margin-top: 6px;
+
+  text-transform: uppercase;
+
+  letter-spacing: .05em;
+
+}
+
+
+.edu-meta .yr {
+
+  font-family: var(--font-mono);
+
+  font-size: .68rem;
+
+  color: var(--ink-3);
+
+  margin-top: 10px;
+
+  white-space: nowrap;
+
+}
+
+
+/* =========================================================
+   CERTIFICATIONS GRID
+   ========================================================= */
+
+.cert-grid-inline {
+
+  display: grid;
+
+  /*
+   * Three cards per row on desktop.
+   */
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+
+  gap: 12px;
+
+}
+
+
+/* =========================================================
+   CERTIFICATION CARD
+   ========================================================= */
+
+.cert-card {
+
+  background: var(--glass);
+
+  border: 1px solid var(--line);
+
+  border-radius: 16px;
+
+  padding: 18px;
+
+  /*
+   * Natural but consistent card structure.
+   */
+  min-height: 146px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  transition:
+    transform .35s var(--ease),
+    border-color .35s var(--ease),
+    background .35s var(--ease);
+
+}
+
+
+.cert-card:hover {
+
+  border-color: var(--violet);
+
+  transform: translateY(-4px);
+
+}
+
+
+/* =========================================================
+   CERTIFICATION ICON
+   ========================================================= */
+
+.cert-card .cicon {
+
+  width: 36px;
+
+  height: 36px;
+
+  flex-shrink: 0;
+
+  border-radius: 9px;
+
+  background: #7c6cf022;
+
+  border: 1px solid #7c6cf044;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  margin-bottom: 13px;
+
+  color: var(--violet);
+
+  font-size: .9rem;
+
+}
+
+
+/* =========================================================
+   CERTIFICATION TITLE
+   ========================================================= */
+
+.cert-card h4 {
+
+  font-family: var(--font-display);
+
+  color: var(--ink-0);
+
+  font-size: .92rem;
+
+  line-height: 1.4;
+
+  margin-bottom: 5px;
+
+}
+
+
+.cert-card p {
+
+  font-size: .76rem;
+
+  line-height: 1.45;
+
+  color: var(--ink-3);
+
+}
+
+
+/* =========================================================
+   LAST CERTIFICATE
+   ========================================================= */
+
+/*
+ * The final internship certificate doesn't need
+ * to stretch across the entire row.
+ *
+ * It remains a normal card, preserving the grid rhythm.
+ */
+
+.cert-card:last-child {
+
+  min-height: 146px;
+
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 1100px) {
+
+  .edu-certs-grid {
+
+    grid-template-columns: 1fr 1.35fr;
+
+    gap: 28px;
+
+  }
+
+  .cert-grid-inline {
+
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  }
+
+}
+
+
+/* =========================================================
+   SMALL TABLET
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+  .edu-certs-grid {
+
+    grid-template-columns: 1fr;
+
+    gap: 34px;
+
+  }
+
+  .cert-grid-inline {
+
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 650px) {
+
+  .edu-card {
+
+    grid-template-columns: 1fr;
+
+    row-gap: 18px;
+
+    padding: 21px;
+
+  }
+
+  .edu-meta {
+
+    align-items: flex-start;
+
+    text-align: left;
+
+    min-width: 0;
+
+  }
+
+  .edu-meta .yr {
+
+    margin-top: 8px;
+
+  }
+
+  .cert-grid-inline {
+
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 10px;
+
+  }
+
+  .cert-card {
+
+    padding: 16px;
+
+    min-height: 138px;
+
+  }
+
+}
+
+
+/* =========================================================
+   VERY SMALL MOBILE
+   ========================================================= */
+
+@media (max-width: 420px) {
+
+  .cert-grid-inline {
+
+    grid-template-columns: 1fr;
+
+  }
+
+  .cert-card {
+
+    min-height: auto;
+
+  }
+
+}
+/* =========================================================
+   ACHIEVEMENTS + CODING PROFILES
+   ========================================================= */
+
+.ach-profiles-grid {
+
+  display: grid;
+
+  /*
+   * 2 : 3 layout
+   *
+   * Achievements = 40%
+   * Profiles     = 60%
+   */
+  grid-template-columns: 2fr 3fr;
+
+  gap: 24px;
+
+  align-items: start;
+
+}
+
+
+/* =========================================================
+   SUBSECTION LABEL
+   ========================================================= */
+
+.ach-subsec-label {
+
+  font-family: var(--font-mono);
+
+  font-size: .68rem;
+
+  text-transform: uppercase;
+
+  letter-spacing: .12em;
+
+  color: var(--ink-3);
+
+  margin-bottom: 14px;
+
+}
+
+
+/* =========================================================
+   ACHIEVEMENTS
+   ========================================================= */
+
+.ach-cards-col {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 12px;
+
+}
+
+
+/* =========================================================
+   ACHIEVEMENT CARD
+   ========================================================= */
+
+.ach-card {
+
+  background: var(--glass);
+
+  border: 1px solid var(--line);
+
+  border-radius: 16px;
+
+  padding: 20px;
+
+  display: grid;
+
+  grid-template-columns: 76px minmax(0, 1fr);
+
+  align-items: center;
+
+  gap: 18px;
+
+  min-height: 112px;
+
+  transition:
+    transform .35s var(--ease),
+    border-color .35s var(--ease),
+    background .35s var(--ease);
+
+}
+
+
+.ach-card:hover {
+
+  border-color: #ffffff28;
+
+  transform: translateY(-3px);
+
+  background: var(--glass-strong);
+
+}
+
+
+/* =========================================================
+   ACHIEVEMENT STAT
+   ========================================================= */
+
+.ach-stat {
+
+  font-family: var(--font-display);
+
+  font-size: 1.55rem;
+
+  line-height: 1;
+
+  font-weight: 700;
+
+  color: var(--violet);
+
+  letter-spacing: -.03em;
+
+  white-space: nowrap;
+
+}
+
+
+.ach-stat span {
+
+  font-size: .8em;
+
+  margin-left: 1px;
+
+}
+
+
+.ach-stat-icon {
+
+  font-size: 1.8rem;
+
+}
+
+
+/* =========================================================
+   ACHIEVEMENT CONTENT
+   ========================================================= */
+
+.ach-content {
+
+  min-width: 0;
+
+}
+
+
+.ach-card h4 {
+
+  font-family: var(--font-display);
+
+  color: var(--ink-0);
+
+  font-size: .96rem;
+
+  line-height: 1.35;
+
+  margin-bottom: 5px;
+
+}
+
+
+.ach-card p {
+
+  font-size: .76rem;
+
+  line-height: 1.5;
+
+  color: var(--ink-2);
+
+}
+
+
+/* =========================================================
+   CODING PROFILES
+   ========================================================= */
+
+.profile-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  gap: 12px;
+
+}
+
+
+/* =========================================================
+   PROFILE CARD
+   ========================================================= */
+
+.profile-card-grid {
+
+  position: relative;
+
+  background: var(--glass);
+
+  border: 1px solid var(--line);
+
+  border-radius: 16px;
+
+  padding: 20px;
+
+  min-height: 126px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: space-between;
+
+  align-items: flex-start;
+
+  text-decoration: none;
+
+  overflow: hidden;
+
+  transition:
+    transform .35s var(--ease),
+    border-color .35s var(--ease),
+    background .35s var(--ease);
+
+}
+
+
+.profile-card-grid:hover {
+
+  border-color: var(--violet);
+
+  transform: translateY(-4px);
+
+  background: var(--glass-strong);
+
+}
+
+
+/* =========================================================
+   PROFILE ICON
+   ========================================================= */
+
+.profile-card-grid .picon {
+
+  width: 38px;
+
+  height: 38px;
+
+  border-radius: 50%;
+
+  background:
+    linear-gradient(
+      135deg,
+      var(--violet),
+      var(--blue)
+    );
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  font-size: .95rem;
+
+  flex-shrink: 0;
+
+}
+
+
+/* =========================================================
+   PROFILE INFORMATION
+   ========================================================= */
+
+.profile-card-grid .pinfo {
+
+  margin-top: 16px;
+
+  min-width: 0;
+
+}
+
+
+.profile-card-grid .pinfo h4 {
+
+  font-family: var(--font-display);
+
+  color: var(--ink-0);
+
+  font-size: .94rem;
+
+  line-height: 1.3;
+
+  margin-bottom: 4px;
+
+}
+
+
+.profile-card-grid .pinfo p {
+
+  font-size: .73rem;
+
+  line-height: 1.45;
+
+  color: var(--ink-2);
+
+}
+
+
+/* =========================================================
+   PROFILE ARROW
+   ========================================================= */
+
+.profile-arrow {
+
+  position: absolute;
+
+  top: 18px;
+
+  right: 18px;
+
+  font-size: .9rem;
+
+  color: var(--ink-3);
+
+  opacity: .65;
+
+  transition:
+    transform .3s var(--ease),
+    color .3s var(--ease),
+    opacity .3s var(--ease);
+
+}
+
+
+.profile-card-grid:hover .profile-arrow {
+
+  color: var(--violet);
+
+  opacity: 1;
+
+  transform: translate(2px, -2px);
+
+}
+
+
+/* =========================================================
+   GITHUB / LINKEDIN / ETC. ICON TEXT
+   ========================================================= */
+
+.profile-card-grid .picon {
+
+  font-family: var(--font-display);
+
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 1050px) {
+
+  .ach-profiles-grid {
+
+    grid-template-columns: 1fr 1.3fr;
+
+    gap: 20px;
+
+  }
+
+  .profile-grid {
+
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+}
+
+
+/* =========================================================
+   SMALL TABLET
+   ========================================================= */
+
+@media (max-width: 850px) {
+
+  .ach-profiles-grid {
+
+    grid-template-columns: 1fr;
+
+    gap: 32px;
+
+  }
+
+  .profile-grid {
+
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 560px) {
+
+  .ach-profiles-grid {
+
+    grid-template-columns: 1fr;
+
+    gap: 28px;
+
+  }
+
+  .ach-card {
+
+    grid-template-columns: 62px minmax(0, 1fr);
+
+    padding: 18px;
+
+    gap: 14px;
+
+    min-height: 104px;
+
+  }
+
+  .ach-stat {
+
+    font-size: 1.35rem;
+
+  }
+
+  .profile-grid {
+
+    grid-template-columns: 1fr;
+
+    gap: 10px;
+
+  }
+
+  .profile-card-grid {
+
+    min-height: 112px;
+
+    padding: 18px;
+
+  }
+
+}
+
+
+/* =========================================================
+   VERY SMALL MOBILE
+   ========================================================= */
+
+@media (max-width: 380px) {
+
+  .ach-card {
+
+    grid-template-columns: 1fr;
+
+    gap: 12px;
+
+  }
+
+  .ach-stat {
+
+    font-size: 1.3rem;
+
+  }
+
+}
 /* ===== Contact ===== */
-.contact-wrap{position:relative;background:linear-gradient(155deg,#12162a,#0b0d16);border:1px solid var(--line);border-radius:28px;padding:80px 48px;text-align:center;overflow:hidden;}
-.contact-wrap::before{content:'';position:absolute;width:500px;height:500px;background:radial-gradient(circle,#7c6cf033,transparent 70%);top:-30%;left:50%;transform:translateX(-50%);filter:blur(40px);}
-.contact-wrap h2{position:relative;font-family:var(--font-display);font-size:clamp(2rem,4.2vw,3.2rem);color:var(--ink-0);font-weight:700;letter-spacing:-.02em;margin-bottom:20px;}
-.contact-wrap > p{position:relative;color:var(--ink-2);max-width:480px;margin:0 auto 40px;font-size:1.02rem;}
-.contact-btns{position:relative;display:flex;justify-content:center;flex-wrap:wrap;gap:16px;}
-@media(max-width:600px){.contact-wrap{padding:56px 26px;}}
+.contact-wrap{position:relative;background:linear-gradient(155deg,#12162a,#0b0d16);border:1px solid var(--line);border-radius:24px;padding:48px 36px;text-align:center;overflow:hidden;}
+.contact-wrap::before{content:'';position:absolute;width:400px;height:400px;background:radial-gradient(circle,#7c6cf033,transparent 70%);top:-30%;left:50%;transform:translateX(-50%);filter:blur(40px);}
+.contact-wrap h2{position:relative;font-family:var(--font-display);font-size:clamp(1.8rem,3.8vw,2.6rem);color:var(--ink-0);font-weight:700;letter-spacing:-.02em;margin-bottom:12px;}
+.contact-wrap > p{position:relative;color:var(--ink-2);max-width:480px;margin:0 auto 28px;font-size:.96rem;}
+.contact-btns{position:relative;display:flex;justify-content:center;flex-wrap:wrap;gap:14px;}
+@media(max-width:600px){.contact-wrap{padding:40px 20px;}}
 
 /* Footer */
-footer{padding:44px 0;border-top:1px solid var(--line);}
-.footer-inner{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;}
+footer{padding:32px 0;border-top:1px solid var(--line);}
+.footer-inner{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px;}
 .footer-inner .flogo{font-family:var(--font-display);font-weight:600;color:var(--ink-0);}
-.footer-links{display:flex;gap:22px;}
-.footer-links a{font-size:.85rem;color:var(--ink-2);transition:color .3s;}
+.footer-links{display:flex;gap:20px;}
+.footer-links a{font-size:.82rem;color:var(--ink-2);transition:color .3s;}
 .footer-links a:hover{color:var(--ink-0);}
-.footer-copy{font-family:var(--font-mono);font-size:.72rem;color:var(--ink-3);}
+.footer-copy{font-family:var(--font-mono);font-size:.7rem;color:var(--ink-3);}
 </style>
 </head>
 <body>
@@ -298,7 +1590,7 @@ footer{padding:44px 0;border-top:1px solid var(--line);}
       <li><a href="#projects" data-nav>Projects</a></li>
       <li><a href="#experience" data-nav>Experience</a></li>
       <li><a href="#education" data-nav>Education</a></li>
-      <li><a href="#certifications" data-nav>Certifications</a></li>
+      <li><a href="#achievements" data-nav>Achievements</a></li>
       <li><a href="#contact" data-nav>Contact</a></li>
     </ul>
     <a href="mailto:akshithaveluri62@gmail.com" class="nav-cta">Let's Talk</a>
@@ -310,13 +1602,13 @@ footer{padding:44px 0;border-top:1px solid var(--line);}
 <section class="hero" id="home">
   <div class="container hero-grid">
     <div>
-      <div class="eyebrow">AI/ML Engineer &amp; Software Developer</div>
+      <div class="eyebrow">Computer Science Undergraduate</div>
       <h1>
         <span class="line"><span style="animation-delay:.15s">Building</span></span>
         <span class="line"><span style="animation-delay:.25s" class="grad">intelligent&nbsp;systems,</span></span>
-        <span class="line"><span style="animation-delay:.35s">not&nbsp;just&nbsp;software.</span></span>
+        <span class="line"><span style="animation-delay:.35s">one&nbsp;project&nbsp;at&nbsp;a&nbsp;time.</span></span>
       </h1>
-      <p class="hero-sub">I'm <strong>Akshitha Veluri</strong>, a Computer Science undergraduate building <strong>LLM applications, RAG pipelines and multi-agent AI systems</strong> with LangChain and Groq — and shipping them end-to-end with the MERN stack.</p>
+      <p class="hero-sub">I'm <strong>Akshitha Veluri</strong>, a Computer Science undergraduate specializing in <strong>AI/ML</strong>. I build practical AI applications — including <strong>Retrieval-Augmented Generation (RAG)</strong>, <strong>multi-agent systems</strong>, and <strong>machine learning models</strong> — complemented by full-stack software development.</p>
       <div class="hero-cta-row">
         <a href="#projects" class="btn btn-primary" data-cursor-hover>Explore Projects →</a>
         <a href="#contact" class="btn btn-ghost" data-cursor-hover>Contact Me</a>
@@ -352,13 +1644,13 @@ footer{padding:44px 0;border-top:1px solid var(--line);}
   <div class="container">
     <div class="sec-head reveal-el">
       <div class="sec-eyebrow">About</div>
-      <h2>Where problem-solving meets language models.</h2>
+      <h2>Computer Science Undergraduate focused on AI/ML.</h2>
     </div>
     <div class="about-grid">
       <div class="about-text reveal-el">
-        <p>I'm a Computer Science undergraduate at <strong>Sasi Institute of Technology and Engineering</strong> (2023–2027), specializing in <strong>Artificial Intelligence and Machine Learning</strong>. My work centers on the full lifecycle of applied AI — from data preprocessing and model development to deploying LLM-powered products people can actually use.</p>
-        <p>Most recently, that's meant building <strong>Retrieval-Augmented Generation pipelines</strong> and <strong>multi-agent systems</strong> with LangChain and the Groq API. I pair that with full-stack MERN development, so the AI I build doesn't stay in a notebook — it ships as a working interface.</p>
-        <p>Outside of coursework, I compete on <strong>LeetCode and CodeChef</strong>, and I'm currently seeking <strong>AI/ML Engineer</strong> and AI-focused Software Development roles where I can keep building systems that reason, retrieve, and act.</p>
+        <p>I am a Computer Science undergraduate at <strong>Sasi Institute of Technology and Engineering</strong> (2023–2027) with a specialization in <strong>Artificial Intelligence and Machine Learning</strong>. My focus centers on practical AI development — turning machine learning models, Retrieval-Augmented Generation (RAG) pipelines, and multi-agent workflows into functional, deployed applications.</p>
+        <p>My technical toolkit includes <strong>Python, LangChain, Groq LLM API, FastAPI, ChromaDB, and Scikit-learn</strong> for AI/ML, combined with <strong>React.js, Node.js, Express.js, and MongoDB</strong> for full-stack software development. This allows me to build both the intelligent backend logic and intuitive frontend interfaces for software products.</p>
+        <p>Alongside coursework and project development, I have completed internships in AI/ML and MERN stack development, and I actively solve problem statements on <strong>LeetCode and CodeChef</strong>. I am currently seeking <strong>internships and entry-level opportunities</strong> in AI/ML and software development.</p>
       </div>
       <div class="stat-grid reveal-el">
         <div class="stat-card"><div class="stat-num">8.7</div><div class="stat-label">CGPA / 10.0</div></div>
@@ -371,60 +1663,395 @@ footer{padding:44px 0;border-top:1px solid var(--line);}
 </section>
 
 <!-- SKILLS -->
+<!-- =========================================================
+     SKILLS
+     ========================================================= -->
 <section id="skills">
+
   <div class="container">
+
+    <!-- Section Heading -->
     <div class="sec-head reveal-el">
+
       <div class="sec-eyebrow">Skills</div>
-      <h2>A technology ecosystem, not a checklist.</h2>
-      <p>Grouped by how I actually use them — from model reasoning to shipping the interface around it.</p>
+
+      <h2>Technical skills and technologies.</h2>
+
+      <p>
+        Technologies and concepts I have explored through coursework,
+        projects, internships, and hands-on development.
+      </p>
+
     </div>
+
+
+    <!-- =====================================================
+         FILTERS
+         ===================================================== -->
     <div class="skill-filters reveal-el">
-      <button class="skill-filter active" data-filter="all">All</button>
-      <button class="skill-filter" data-filter="ai">AI / ML</button>
-      <button class="skill-filter" data-filter="infra">AI Infra</button>
-      <button class="skill-filter" data-filter="lang">Languages</button>
-      <button class="skill-filter" data-filter="web">Web Dev</button>
-      <button class="skill-filter" data-filter="cs">Core CS &amp; Tools</button>
+
+      <button
+        class="skill-filter active"
+        data-filter="all">
+        All
+      </button>
+
+      <button
+        class="skill-filter"
+        data-filter="ai">
+        AI / ML
+      </button>
+
+      <button
+        class="skill-filter"
+        data-filter="infra">
+        AI Tools
+      </button>
+
+      <button
+        class="skill-filter"
+        data-filter="lang">
+        Languages
+      </button>
+
+      <button
+        class="skill-filter"
+        data-filter="web">
+        Web &amp; DB
+      </button>
+
+      <button
+        class="skill-filter"
+        data-filter="cs">
+        CS &amp; Tools
+      </button>
+
     </div>
-    <div class="skill-cats reveal-el">
-      <div class="skill-cat" data-cat="ai">
-        <div class="skill-cat-head"><div class="skill-cat-icon">🧠</div><div class="skill-cat-title">AI / Machine Learning</div></div>
-        <div class="skill-tags">
-          <span class="skill-tag">Machine Learning</span><span class="skill-tag">NLP</span><span class="skill-tag">LLMs</span>
-          <span class="skill-tag">Generative AI</span><span class="skill-tag">RAG</span><span class="skill-tag">Prompt Engineering</span>
-          <span class="skill-tag">Multi-Agent Systems</span><span class="skill-tag">LangChain</span><span class="skill-tag">Scikit-Learn</span>
-          <span class="skill-tag">Pandas</span><span class="skill-tag">NumPy</span>
+
+
+    <!-- =====================================================
+         MAIN 2 : 3 SKILL LAYOUT
+         ===================================================== -->
+
+    <div class="skills-layout reveal-el">
+
+
+      <!-- ===================================================
+           LEFT FRAME — 2 PARTS
+           AI / ML + AI TOOLS
+           =================================================== -->
+
+      <div class="skills-frame skills-frame-ai">
+
+
+        <!-- AI / MACHINE LEARNING -->
+        <div
+          class="skill-cat skill-cat-ai"
+          data-cat="ai">
+
+          <div class="skill-cat-head">
+
+            <div class="skill-cat-icon">
+              🧠
+            </div>
+
+            <div class="skill-cat-heading">
+
+              <div class="skill-cat-title">
+                AI / Machine Learning
+              </div>
+
+              <div class="skill-cat-subtitle">
+                Core AI &amp; ML concepts
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="skill-tags">
+
+            <span class="skill-tag">
+              Machine Learning
+            </span>
+
+            <span class="skill-tag">
+              NLP
+            </span>
+
+            <span class="skill-tag">
+              LLMs
+            </span>
+
+            <span class="skill-tag">
+              Generative AI
+            </span>
+
+            <span class="skill-tag">
+              RAG
+            </span>
+
+            <span class="skill-tag">
+              Prompt Engineering
+            </span>
+
+            <span class="skill-tag">
+              Multi-Agent Systems
+            </span>
+
+            <span class="skill-tag">
+              LangChain
+            </span>
+
+            <span class="skill-tag">
+              Scikit-Learn
+            </span>
+
+            <span class="skill-tag">
+              Pandas
+            </span>
+
+            <span class="skill-tag">
+              NumPy
+            </span>
+
+          </div>
+
         </div>
-      </div>
-      <div class="skill-cat" data-cat="infra">
-        <div class="skill-cat-head"><div class="skill-cat-icon">⚙️</div><div class="skill-cat-title">AI Tools &amp; Infrastructure</div></div>
-        <div class="skill-tags">
-          <span class="skill-tag">Groq LLM API</span><span class="skill-tag">FastAPI</span><span class="skill-tag">ChromaDB</span>
-          <span class="skill-tag">Gradio</span><span class="skill-tag">Hugging Face Spaces</span>
+
+
+        <!-- AI TOOLS & INFRASTRUCTURE -->
+        <div
+          class="skill-cat skill-cat-infra"
+          data-cat="infra">
+
+          <div class="skill-cat-head">
+
+            <div class="skill-cat-icon">
+              ⚙️
+            </div>
+
+            <div class="skill-cat-heading">
+
+              <div class="skill-cat-title">
+                AI Tools &amp; Infrastructure
+              </div>
+
+              <div class="skill-cat-subtitle">
+                Frameworks &amp; deployment tools
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="skill-tags">
+
+            <span class="skill-tag">
+              Groq LLM API
+            </span>
+
+            <span class="skill-tag">
+              FastAPI
+            </span>
+
+            <span class="skill-tag">
+              ChromaDB
+            </span>
+
+            <span class="skill-tag">
+              Gradio
+            </span>
+
+            <span class="skill-tag">
+              Hugging Face Spaces
+            </span>
+
+          </div>
+
         </div>
+
       </div>
-      <div class="skill-cat" data-cat="lang">
-        <div class="skill-cat-head"><div class="skill-cat-icon">💻</div><div class="skill-cat-title">Programming Languages</div></div>
-        <div class="skill-tags">
-          <span class="skill-tag">Python</span><span class="skill-tag">Java</span><span class="skill-tag">JavaScript</span><span class="skill-tag">C</span>
+
+
+      <!-- ===================================================
+           RIGHT FRAME — 3 PARTS
+           LANGUAGES + WEB + CORE CS
+           =================================================== -->
+
+      <div class="skills-frame skills-frame-core">
+
+
+        <!-- PROGRAMMING LANGUAGES -->
+        <div
+          class="skill-cat skill-cat-lang"
+          data-cat="lang">
+
+          <div class="skill-cat-head">
+
+            <div class="skill-cat-icon">
+              💻
+            </div>
+
+            <div class="skill-cat-heading">
+
+              <div class="skill-cat-title">
+                Programming Languages
+              </div>
+
+              <div class="skill-cat-subtitle">
+                Languages used across projects
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="skill-tags">
+
+            <span class="skill-tag">
+              Python
+            </span>
+
+            <span class="skill-tag">
+              Java
+            </span>
+
+            <span class="skill-tag">
+              JavaScript
+            </span>
+
+            <span class="skill-tag">
+              C
+            </span>
+
+          </div>
+
         </div>
-      </div>
-      <div class="skill-cat" data-cat="web">
-        <div class="skill-cat-head"><div class="skill-cat-icon">🌐</div><div class="skill-cat-title">Web Development</div></div>
-        <div class="skill-tags">
-          <span class="skill-tag">HTML</span><span class="skill-tag">CSS</span><span class="skill-tag">ReactJS</span>
-          <span class="skill-tag">NodeJS</span><span class="skill-tag">ExpressJS</span><span class="skill-tag">MongoDB</span><span class="skill-tag">MySQL</span>
+
+
+        <!-- WEB DEVELOPMENT -->
+        <div
+          class="skill-cat skill-cat-web"
+          data-cat="web">
+
+          <div class="skill-cat-head">
+
+            <div class="skill-cat-icon">
+              🌐
+            </div>
+
+            <div class="skill-cat-heading">
+
+              <div class="skill-cat-title">
+                Web Development
+              </div>
+
+              <div class="skill-cat-subtitle">
+                Frontend, backend &amp; databases
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="skill-tags">
+
+            <span class="skill-tag">
+              HTML
+            </span>
+
+            <span class="skill-tag">
+              CSS
+            </span>
+
+            <span class="skill-tag">
+              ReactJS
+            </span>
+
+            <span class="skill-tag">
+              NodeJS
+            </span>
+
+            <span class="skill-tag">
+              ExpressJS
+            </span>
+
+            <span class="skill-tag">
+              MongoDB
+            </span>
+
+            <span class="skill-tag">
+              MySQL
+            </span>
+
+          </div>
+
         </div>
-      </div>
-      <div class="skill-cat" data-cat="cs">
-        <div class="skill-cat-head"><div class="skill-cat-icon">🛠️</div><div class="skill-cat-title">Core CS &amp; Tools</div></div>
-        <div class="skill-tags">
-          <span class="skill-tag">Data Structures &amp; Algorithms</span><span class="skill-tag">DBMS</span><span class="skill-tag">Operating Systems</span>
-          <span class="skill-tag">Git</span><span class="skill-tag">GitHub</span>
+
+
+        <!-- CORE CS & TOOLS -->
+        <div
+          class="skill-cat skill-cat-cs"
+          data-cat="cs">
+
+          <div class="skill-cat-head">
+
+            <div class="skill-cat-icon">
+              🛠️
+            </div>
+
+            <div class="skill-cat-heading">
+
+              <div class="skill-cat-title">
+                Core CS &amp; Tools
+              </div>
+
+              <div class="skill-cat-subtitle">
+                Foundations &amp; development tools
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="skill-tags">
+
+            <span class="skill-tag">
+              Data Structures &amp; Algorithms
+            </span>
+
+            <span class="skill-tag">
+              DBMS
+            </span>
+
+            <span class="skill-tag">
+              Operating Systems
+            </span>
+
+            <span class="skill-tag">
+              Git
+            </span>
+
+            <span class="skill-tag">
+              GitHub
+            </span>
+
+          </div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </section>
 
 <!-- PROJECTS -->
@@ -432,8 +2059,8 @@ footer{padding:44px 0;border-top:1px solid var(--line);}
   <div class="container">
     <div class="sec-head reveal-el">
       <div class="sec-eyebrow">Projects</div>
-      <h2>I don't just learn technology. I build with it.</h2>
-      <p>Four systems spanning multi-agent orchestration, retrieval-augmented reasoning, and applied ML.</p>
+      <h2>Selected Technical Projects</h2>
+      <p>Practical systems spanning multi-agent orchestration, retrieval-augmented generation, machine learning classification, and software automation.</p>
     </div>
     <div class="project-list">
 
@@ -441,8 +2068,8 @@ footer{padding:44px 0;border-top:1px solid var(--line);}
         <div class="project-index">01</div>
         <div class="project-body">
           <h3>Autonomous Multi-Agent Research Team <span class="badge">Featured</span></h3>
-          <p>A four-agent AI research crew — Research, Analysis, Fact Checker, Report Writer — that hands off work like a real research team, automating web research, trend analysis, and report generation. Cut research time by 95%.</p>
-          <div class="project-tags"><span>Python</span><span>LangChain</span><span>Groq LLM</span><span>Gradio</span></div>
+          <p>A multi-agent AI research system built with Python, LangChain, and the Groq LLM API. Features specialized agents for web research, data analysis, fact-checking, and report generation using structured handoffs. Deployed on Hugging Face Spaces with a Gradio interface.</p>
+          <div class="project-tags"><span>Python</span><span>LangChain</span><span>Groq LLM API</span><span>Gradio</span><span>Hugging Face Spaces</span></div>
         </div>
         <div class="project-links">
           <a href="https://akshitha-2006-multiagentresearch.hf.space" target="_blank" rel="noopener" class="plink" data-cursor-hover>Live Demo</a>
@@ -454,8 +2081,8 @@ footer{padding:44px 0;border-top:1px solid var(--line);}
         <div class="project-index">02</div>
         <div class="project-body">
           <h3>Contract RAG System</h3>
-          <p>A Retrieval-Augmented Generation system that reads contracts and answers natural-language questions about them, with semantic chunking and vector retrieval across 90+ documents — extended with automated recommendation generation.</p>
-          <div class="project-tags"><span>FastAPI</span><span>ChromaDB</span><span>Groq LLM</span><span>RAG</span></div>
+          <p>A Retrieval-Augmented Generation (RAG) system for contract document processing. Implements semantic chunking, vector retrieval with ChromaDB, and natural-language querying across 90+ documents using Groq LLM to provide automated document insights.</p>
+          <div class="project-tags"><span>Python</span><span>FastAPI</span><span>ChromaDB</span><span>Groq LLM API</span><span>RAG</span></div>
         </div>
         <div class="project-links">
           <a href="https://akshitha-2006-multivendorsystem.hf.space/" target="_blank" rel="noopener" class="plink" data-cursor-hover>Live Demo</a>
@@ -467,8 +2094,8 @@ footer{padding:44px 0;border-top:1px solid var(--line);}
         <div class="project-index">03</div>
         <div class="project-body">
           <h3>Heart Disease Prediction System</h3>
-          <p>An end-to-end ML pipeline that flags heart disease risk from patient health records. Engineered features and trained a Random Forest Classifier, tuning preprocessing to reach 95% accuracy validated via cross-validation.</p>
-          <div class="project-tags"><span>Python</span><span>Pandas</span><span>Scikit-Learn</span></div>
+          <p>A machine learning classification project evaluating heart disease risk from health indicators. Implemented data preprocessing and feature preparation, training a Random Forest Classifier that achieved approximately 95% validation accuracy.</p>
+          <div class="project-tags"><span>Python</span><span>Scikit-learn</span><span>Pandas</span><span>NumPy</span><span>Random Forest</span></div>
         </div>
         <div class="project-links">
           <a href="https://heart-disease-prediction-sandy-eight.vercel.app/" target="_blank" rel="noopener" class="plink" data-cursor-hover>Live Demo</a>
@@ -480,8 +2107,8 @@ footer{padding:44px 0;border-top:1px solid var(--line);}
         <div class="project-index">04</div>
         <div class="project-body">
           <h3>YouTube Auto-Posting Agent</h3>
-          <p>An AI automation agent that handles the repetitive parts of running a YouTube channel — scheduling and posting videos through a single automated content pipeline, cutting manual effort by 95%. Shipped as a live Hugging Face Space.</p>
-          <div class="project-tags"><span>Python</span><span>Automation</span><span>Hugging Face</span></div>
+          <p>An automated Python workflow agent designed to streamline video scheduling and publishing. Automates content pipeline tasks to reduce repetitive manual effort, deployed as a live interactive app on Hugging Face Spaces.</p>
+          <div class="project-tags"><span>Python</span><span>Automation</span><span>Hugging Face Spaces</span></div>
         </div>
         <div class="project-links">
           <a href="https://huggingface.co/spaces/akshitha-2006/youtubeautopostingagent" target="_blank" rel="noopener" class="plink" data-cursor-hover>Live Demo</a>
@@ -497,7 +2124,8 @@ footer{padding:44px 0;border-top:1px solid var(--line);}
   <div class="container">
     <div class="sec-head reveal-el">
       <div class="sec-eyebrow">Experience</div>
-      <h2>Hands-on, in production-shaped work.</h2>
+      <h2>Internship Experience</h2>
+      <p>Practical internship work in AI/ML project workflows and full-stack web development.</p>
     </div>
     <div class="timeline">
       <div class="tl-item reveal-el">
@@ -505,9 +2133,9 @@ footer{padding:44px 0;border-top:1px solid var(--line);}
         <div class="tl-card">
           <div class="tl-top"><div><span class="tl-role">AI Intern</span> — <span class="tl-org">Skilldzire</span></div><div class="tl-date">May 2025 – Jun 2025</div></div>
           <ul>
-            <li>Contributed to AI/ML project work, gaining hands-on exposure to model development workflows.</li>
-            <li>Applied Python and machine learning techniques to solve real-world problem statements.</li>
-            <li>Certified upon successful completion of the internship program.</li>
+            <li>Worked on AI/ML project tasks, gaining hands-on exposure to model development workflows and data preparation.</li>
+            <li>Applied Python and machine learning techniques to address assigned problem statements in practical ML workflows.</li>
+            <li>Evaluated model results and participated in iterative testing for assigned AI modules.</li>
           </ul>
         </div>
       </div>
@@ -516,8 +2144,9 @@ footer{padding:44px 0;border-top:1px solid var(--line);}
         <div class="tl-card">
           <div class="tl-top"><div><span class="tl-role">MERN Stack Developer Intern</span> — <span class="tl-org">Micro IT</span></div><div class="tl-date">Apr 2025 – Jun 2025</div></div>
           <ul>
-            <li>Developed scalable web application features using MongoDB, ExpressJS, ReactJS, and NodeJS.</li>
-            <li>Implemented responsive UIs and integrated backend APIs to enhance application functionality.</li>
+            <li>Developed responsive user interface components using React.js, HTML, and CSS for full-stack applications.</li>
+            <li>Integrated backend RESTful APIs using Node.js and Express.js connected with a MongoDB database.</li>
+            <li>Assisted in frontend UI refinement and backend endpoint testing for web application features.</li>
           </ul>
         </div>
       </div>
@@ -525,82 +2154,541 @@ footer{padding:44px 0;border-top:1px solid var(--line);}
   </div>
 </section>
 
-<!-- EDUCATION -->
+<!-- =========================================================
+     EDUCATION + CERTIFICATIONS
+     ========================================================= -->
 <section id="education">
+
   <div class="container">
-    <div class="sec-head reveal-el">
-      <div class="sec-eyebrow">Education</div>
-      <h2>Academic foundation.</h2>
-    </div>
-    <div class="reveal-el">
-      <div class="edu-card">
-        <div><h3>B.Tech, Computer Science Engineering</h3><div class="edu-org">Sasi Institute of Technology and Engineering</div></div>
-        <div class="edu-meta"><div class="cgpa">8.7</div><div class="yr">2023 – 2027 · CGPA /10</div></div>
+
+    <div class="edu-certs-grid">
+
+
+      <!-- =====================================================
+           EDUCATION
+           ===================================================== -->
+
+      <div class="edu-col reveal-el">
+
+        <div class="sec-head education-heading">
+
+          <div class="sec-eyebrow">
+            Education
+          </div>
+
+          <h2>
+            Academic Background
+          </h2>
+
+        </div>
+
+
+        <!-- B.TECH -->
+        <div class="edu-card">
+
+          <div class="edu-content">
+
+            <h3>
+              B.Tech, Computer Science Engineering
+            </h3>
+
+            <div class="edu-org">
+              Sasi Institute of Technology and Engineering
+            </div>
+
+          </div>
+
+
+          <div class="edu-meta">
+
+            <div class="cgpa">
+              8.7
+            </div>
+
+            <div class="score-label">
+              CGPA / 10.0
+            </div>
+
+            <div class="yr">
+              2023 – 2027
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- INTERMEDIATE -->
+        <div class="edu-card">
+
+          <div class="edu-content">
+
+            <h3>
+              Intermediate (Class 12)
+            </h3>
+
+            <div class="edu-org">
+              Sasi Junior College
+            </div>
+
+          </div>
+
+
+          <div class="edu-meta">
+
+            <div class="cgpa">
+              96.3%
+            </div>
+
+            <div class="score-label">
+              Aggregate
+            </div>
+
+            <div class="yr">
+              2021 – 2023
+            </div>
+
+          </div>
+
+        </div>
+
       </div>
-      <div class="edu-card">
-        <div><h3>Intermediate (Class 12)</h3><div class="edu-org">Sasi Junior College</div></div>
-        <div class="edu-meta"><div class="cgpa">96.3%</div><div class="yr">2021 – 2023</div></div>
+
+
+      <!-- =====================================================
+           CERTIFICATIONS
+           ===================================================== -->
+
+      <div class="certs-col reveal-el">
+
+        <div class="sec-head certifications-heading">
+
+          <div class="sec-eyebrow">
+            Certifications
+          </div>
+
+          <h2>
+            Certifications &amp; Training
+          </h2>
+
+        </div>
+
+
+        <div class="cert-grid-inline">
+
+
+          <!-- CERTIFICATE 01 -->
+          <div class="cert-card">
+
+            <div class="cicon">
+              📡
+            </div>
+
+            <h4>
+              Internet of Things (IoT)
+            </h4>
+
+            <p>
+              NPTEL — April 2026
+            </p>
+
+          </div>
+
+
+          <!-- CERTIFICATE 02 -->
+          <div class="cert-card">
+
+            <div class="cicon">
+              ✨
+            </div>
+
+            <h4>
+              Generative AI
+            </h4>
+
+            <p>
+              Simplilearn
+            </p>
+
+          </div>
+
+
+          <!-- CERTIFICATE 03 -->
+          <div class="cert-card">
+
+            <div class="cicon">
+              📊
+            </div>
+
+            <h4>
+              Power BI
+            </h4>
+
+            <p>
+              Simplilearn
+            </p>
+
+          </div>
+
+
+          <!-- CERTIFICATE 04 -->
+          <div class="cert-card">
+
+            <div class="cicon">
+              🐍
+            </div>
+
+            <h4>
+              Python
+            </h4>
+
+            <p>
+              CodeChef
+            </p>
+
+          </div>
+
+
+          <!-- CERTIFICATE 05 -->
+          <div class="cert-card">
+
+            <div class="cicon">
+              🔤
+            </div>
+
+            <h4>
+              C
+            </h4>
+
+            <p>
+              CodeChef
+            </p>
+
+          </div>
+
+
+          <!-- CERTIFICATE 06 -->
+          <div class="cert-card">
+
+            <div class="cicon">
+              🗄️
+            </div>
+
+            <h4>
+              DBMS
+            </h4>
+
+            <p>
+              CodeChef
+            </p>
+
+          </div>
+
+
+          <!-- CERTIFICATE 07 -->
+          <div class="cert-card">
+
+            <div class="cicon">
+              🎓
+            </div>
+
+            <h4>
+              Internship Certificate
+            </h4>
+
+            <p>
+              Skilldzire — Summer 2025
+            </p>
+
+          </div>
+
+
+        </div>
+
       </div>
+
     </div>
+
   </div>
+
 </section>
 
-<!-- CERTIFICATIONS -->
-<section id="certifications">
-  <div class="container">
-    <div class="sec-head reveal-el">
-      <div class="sec-eyebrow">Certifications</div>
-      <h2>Continuous, verified learning.</h2>
-    </div>
-    <div class="grid-3 reveal-el">
-      <div class="cert-card"><div class="cicon">📡</div><h4>Internet of Things (IoT)</h4><p>NPTEL — April 2026</p></div>
-      <div class="cert-card"><div class="cicon">✨</div><h4>Generative AI</h4><p>Simplilearn</p></div>
-      <div class="cert-card"><div class="cicon">📊</div><h4>Power BI</h4><p>Simplilearn</p></div>
-      <div class="cert-card"><div class="cicon">🐍</div><h4>Python</h4><p>CodeChef</p></div>
-      <div class="cert-card"><div class="cicon">🔤</div><h4>C</h4><p>CodeChef</p></div>
-      <div class="cert-card"><div class="cicon">🗄️</div><h4>DBMS</h4><p>CodeChef</p></div>
-      <div class="cert-card"><div class="cicon">🎓</div><h4>Internship Completion Certificate</h4><p>Skilldzire — Summer 2025</p></div>
-    </div>
-  </div>
-</section>
-
-<!-- ACHIEVEMENTS -->
+<!-- =========================================================
+     ACHIEVEMENTS + CODING PROFILES
+     ========================================================= -->
 <section id="achievements">
-  <div class="container">
-    <div class="sec-head reveal-el">
-      <div class="sec-eyebrow">Achievements</div>
-      <h2>Recognized for consistency and competition.</h2>
-    </div>
-    <div class="grid-3 reveal-el">
-      <div class="ach-card"><div class="anum">3★</div><div><h4>CodeChef 3-Star Rating</h4><p>Maximum rating of 1615.</p></div></div>
-      <div class="ach-card"><div class="anum">200+</div><div><h4>LeetCode Problems Solved</h4><p>Strengthening core problem-solving skills.</p></div></div>
-      <div class="ach-card"><div class="anum">🏆</div><div><h4>Codethon Winner</h4><p>Co-hosted by ForgeAlumnus, SITE, and NIT Andhra Pradesh.</p></div></div>
-    </div>
-  </div>
-</section>
 
-<!-- CODING PROFILES -->
-<section id="profiles">
   <div class="container">
+
+    <!-- SECTION HEADER -->
     <div class="sec-head reveal-el">
-      <div class="sec-eyebrow">Coding Profiles</div>
-      <h2>Where I compete and ship.</h2>
+
+      <div class="sec-eyebrow">
+        Achievements &amp; Profiles
+      </div>
+
+      <h2>
+        Honors, Ratings &amp; Coding Presence
+      </h2>
+
+      <p>
+        Competitive programming milestones and platforms where I build,
+        practice, and share my work.
+      </p>
+
     </div>
-    <div class="profile-row reveal-el">
-      <a href="https://github.com/akshithaveluri" target="_blank" rel="noopener" class="profile-card" data-cursor-hover><div class="picon">🐙</div><h4>GitHub</h4><p>Open-source &amp; project repositories</p></a>
-      <a href="https://www.linkedin.com/in/akshitha-reddy-604842416" target="_blank" rel="noopener" class="profile-card" data-cursor-hover><div class="picon">in</div><h4>LinkedIn</h4><p>Professional network</p></a>
-      <a href="https://leetcode.com/u/IlUoO22DSw" target="_blank" rel="noopener" class="profile-card" data-cursor-hover><div class="picon">📈</div><h4>LeetCode</h4><p>200+ problems solved</p></a>
-      <a href="https://www.codechef.com/users/akshithaveluri" target="_blank" rel="noopener" class="profile-card" data-cursor-hover><div class="picon">👨‍🍳</div><h4>CodeChef</h4><p>3★ · Max rating 1615</p></a>
+
+
+    <!-- =====================================================
+         MAIN 2 : 3 LAYOUT
+         ===================================================== -->
+
+    <div class="ach-profiles-grid">
+
+
+      <!-- ===================================================
+           LEFT — COMPETITIVE ACHIEVEMENTS
+           =================================================== -->
+
+      <div class="achievements-panel reveal-el">
+
+        <div class="ach-subsec-label">
+          Competitive Achievements
+        </div>
+
+
+        <div class="ach-cards-col">
+
+
+          <!-- CODECHEF -->
+          <div class="ach-card">
+
+            <div class="ach-stat">
+              3<span>★</span>
+            </div>
+
+            <div class="ach-content">
+
+              <h4>
+                CodeChef 3-Star Rating
+              </h4>
+
+              <p>
+                Maximum rating of 1615 in competitive programming contests.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <!-- LEETCODE -->
+          <div class="ach-card">
+
+            <div class="ach-stat">
+              200<span>+</span>
+            </div>
+
+            <div class="ach-content">
+
+              <h4>
+                LeetCode Problems Solved
+              </h4>
+
+              <p>
+                Strengthening data structures and algorithms problem-solving skills.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <!-- CODETHON -->
+          <div class="ach-card">
+
+            <div class="ach-stat ach-stat-icon">
+              🏆
+            </div>
+
+            <div class="ach-content">
+
+              <h4>
+                Codethon Winner
+              </h4>
+
+              <p>
+                Co-hosted by ForgeAlumnus, SITE, and NIT Andhra Pradesh.
+              </p>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+
+      <!-- ===================================================
+           RIGHT — CODING PROFILES
+           =================================================== -->
+
+      <div class="profiles-panel reveal-el">
+
+        <div class="ach-subsec-label">
+          Coding Profiles
+        </div>
+
+
+        <div class="profile-grid">
+
+
+          <!-- GITHUB -->
+          <a
+            href="https://github.com/akshithaveluri"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="profile-card profile-card-grid"
+            data-cursor-hover
+          >
+
+            <div class="picon">
+              🐙
+            </div>
+
+            <div class="pinfo">
+
+              <h4>
+                GitHub
+              </h4>
+
+              <p>
+                Projects, experiments &amp; source code
+              </p>
+
+            </div>
+
+            <div class="profile-arrow">
+              ↗
+            </div>
+
+          </a>
+
+
+          <!-- LINKEDIN -->
+          <a
+            href="https://www.linkedin.com/in/akshitha-reddy-604842416"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="profile-card profile-card-grid"
+            data-cursor-hover
+          >
+
+            <div class="picon">
+              in
+            </div>
+
+            <div class="pinfo">
+
+              <h4>
+                LinkedIn
+              </h4>
+
+              <p>
+                Professional network &amp; career updates
+              </p>
+
+            </div>
+
+            <div class="profile-arrow">
+              ↗
+            </div>
+
+          </a>
+
+
+          <!-- LEETCODE -->
+          <a
+            href="https://leetcode.com/u/IlUoO22DSw"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="profile-card profile-card-grid"
+            data-cursor-hover
+          >
+
+            <div class="picon">
+              📈
+            </div>
+
+            <div class="pinfo">
+
+              <h4>
+                LeetCode
+              </h4>
+
+              <p>
+                200+ problems solved · Active solver
+              </p>
+
+            </div>
+
+            <div class="profile-arrow">
+              ↗
+            </div>
+
+          </a>
+
+
+          <!-- CODECHEF -->
+          <a
+            href="https://www.codechef.com/users/akshithaveluri"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="profile-card profile-card-grid"
+            data-cursor-hover
+          >
+
+            <div class="picon">
+              👨‍🍳
+            </div>
+
+            <div class="pinfo">
+
+              <h4>
+                CodeChef
+              </h4>
+
+              <p>
+                3★ · Maximum rating 1615
+              </p>
+
+            </div>
+
+            <div class="profile-arrow">
+              ↗
+            </div>
+
+          </a>
+
+
+        </div>
+
+      </div>
+
     </div>
+
   </div>
+
 </section>
 
 <!-- CONTACT -->
 <section id="contact">
   <div class="container">
     <div class="contact-wrap reveal-el">
-      <h2>Let's build something meaningful.</h2>
-      <p>Open to AI/ML Engineer and AI-focused Software Development roles. If you're hiring or just want to talk about LLMs, RAG, or agents — reach out.</p>
+      <h2>Let's Connect.</h2>
+      <p>Currently looking for internships, entry-level opportunities, and opportunities to contribute to AI/ML and software development projects.</p>
       <div class="contact-btns">
         <a href="mailto:akshithaveluri62@gmail.com" class="btn btn-primary" data-cursor-hover>akshithaveluri62@gmail.com</a>
         <a href="https://www.linkedin.com/in/akshitha-reddy-604842416" target="_blank" rel="noopener" class="btn btn-ghost" data-cursor-hover>LinkedIn</a>
@@ -618,7 +2706,7 @@ footer{padding:44px 0;border-top:1px solid var(--line);}
       <a href="https://www.linkedin.com/in/akshitha-reddy-604842416" target="_blank" rel="noopener" data-cursor-hover>LinkedIn</a>
       <a href="mailto:akshithaveluri62@gmail.com" data-cursor-hover>Email</a>
     </div>
-    <div class="footer-copy">© 2026 Akshitha Veluri — AI/ML Engineer</div>
+    <div class="footer-copy">© 2026 Akshitha Veluri</div>
   </div>
 </footer>
 
